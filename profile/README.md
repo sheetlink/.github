@@ -1,6 +1,8 @@
-  # SheetLink
+<p align="center">
+  <img src="sheetlink-logo-github-banner.png" alt="SheetLink Banner">
+</p>
 
-  > Sync your financial life into Google Sheets. Cleanly, securely, and automatically.
+> Sync your financial life into Google Sheets. Cleanly, securely, and automatically.
 
   SheetLink connects your financial accounts through Plaid and automatically syncs balances and transactions into Google Sheets. Built for people who want full control over their financial data using the tools
   they already know.
