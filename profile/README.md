@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="sheetlink-logo-github-banner.png" alt="SheetLink Banner">
-</p>
+# SheetLink
 
 > Sync your financial life into Google Sheets. Cleanly, securely, and automatically.
 
