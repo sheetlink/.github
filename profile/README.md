@@ -2,114 +2,44 @@
   <img src="sheetlink-logo-github-banner.png" alt="SheetLink Banner">
 </p>
 
-> Sync your financial life into Google Sheets. Cleanly, securely, and automatically.
+> Sync your bank transactions anywhere — Google Sheets, Excel, CSV, Postgres, SQLite.
 
-  SheetLink connects your financial accounts through Plaid and automatically syncs balances and transactions into Google Sheets. Built for people who want full control over their financial data using the tools
-  they already know.
+SheetLink connects your financial accounts through Plaid and syncs balances and transactions into the tools you already use. Built for people who want full control over their financial data.
 
-  ---
+---
 
-  ## Overview
+## Products
 
-  This organization contains:
-  - **[sheetlink-client](https://github.com/sheetlink/sheetlink-client)** — Chrome extension providing the Plaid → Google Sheets connection
-  - **sheetlink-api** — Backend service powering sync, authentication, and Plaid integration (private)
+- **[Chrome Extension](https://chromewebstore.google.com/detail/sheetlink/niehncndbonfankgokhandgbaebdbpch)** — Plaid → Google Sheets, one click
+- **Excel Add-in** — Plaid → Excel (available on AppSource)
+- **[CLI](https://github.com/sheetlink/cli)** — `sheetlink sync` to JSON, CSV, Postgres, or SQLite
+- **[Dashboard](https://sheetlink.app/dashboard)** — Manage banks, billing, and API keys
 
-  Currently in limited beta as we prepare for general release.
+---
 
-  ---
+## Repositories
 
-  ## Repositories
+### [sheetlink/cli](https://github.com/sheetlink/cli)
+The `sheetlink` npm package. Sync transactions from the terminal to any destination.
 
-  ### [sheetlink-client](https://github.com/sheetlink/sheetlink-client)
+```bash
+npm install -g sheetlink
+sheetlink sync --output postgres://localhost/mydb
+```
 
-  The Chrome extension that handles Plaid authentication and syncs your financial data into Google Sheets.
+### Internal
+The web client, API, and operational tooling are maintained privately.
 
-  **Status:** Open source, beta
-  
-  **Current Environment:** Plaid Sandbox
+---
 
-  ### Internal Services
+## Links
 
-  The API layer and operational tooling are maintained privately during beta. These will be opened incrementally as we finalize security and compliance requirements.
+- **Website:** [sheetlink.app](https://sheetlink.app)
+- **Pricing:** [sheetlink.app/pricing](https://sheetlink.app/pricing)
+- **Support:** support@sheetlink.app
 
-  ---
+---
 
-  ## Beta Access
-
-  SheetLink is in active beta. Join now to:
-  - Install and test the Chrome extension locally
-  - Connect demo accounts via Plaid Sandbox
-  - Sync transactions and balances to your own Google Sheets
-  - Shape the product with your feedback
-
-  **[Sign up for beta access →](https://sheetlink.app/beta)**
-
-  ---
-
-  ## Getting Started
-
-  1. [Join the beta waitlist](https://sheetlink.app/beta)
-  2. Follow the [installation guide](https://sheetlink.app/get-started)
-  3. Connect a test account via Plaid Sandbox
-  4. Watch your Sheet populate with real-time data
-
-  Full documentation available at [sheetlink.app/docs](https://sheetlink.app/docs)
-
-  ---
-
-  ## Roadmap
-
-  ### Q1 2025
-  - ✅ Beta launch with Plaid Sandbox
-  - 🚧 Chrome Web Store submission
-  - 🚧 Plaid Production approval
-
-  ### Q2 2025
-  - Public Chrome extension release
-  - Enhanced sheet templates and formatting
-  - Category-based transaction sorting
-
-  ### Future
-  - Support for investment accounts
-  - Multi-sheet sync
-  - Automated budgeting templates
-
-  ---
-
-  ## Design Principles
-
-  SheetLink is built on three core values:
-  - **Transparency**: Your data, your sheet, your control.
-  - **Security**: Zero-knowledge local processing where possible, encrypted transport, and bank-grade best practices.
-  - **Simplicity**: A lightweight, intuitive workflow that keeps your personal finance clear and flexible.
-
-  ---
-
-  ## Support & Community
-
-  - **Email:** support@sheetlink.com
-  - **Feedback:** [GitHub Issues](https://github.com/sheetlink/sheetlink-client/issues)
-  - **Website:** [sheetlink.app](https://sheetlink.app)
-
-  We're actively looking for beta testers and early feedback.
-
-  ---
-
-  ## About
-
-  SheetLink is built by [Rudy Martin Del Campo](https://github.com/rudymdc) in Austin, TX.
-
-  Focused on making personal finance more transparent, accessible, and human.
-
-  ---
-
-  ## License
-
-  MIT License - See [LICENSE](https://github.com/sheetlink/sheetlink-client/blob/main/LICENSE) file for details
-
-  ---
-
-  <p align="center">
-    © 2025 SheetLink · Built in Austin, TX
-  </p>
+<p align="center">
+  © 2026 SheetLink · Built in Austin, TX
+</p>
