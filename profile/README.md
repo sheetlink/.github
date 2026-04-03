@@ -19,6 +19,9 @@ SheetLink connects your financial accounts through Plaid and syncs balances and 
 
 ## Repositories
 
+### [sheetlink/extension](https://github.com/sheetlink/extension)
+The Chrome extension source. Connects Plaid to Google Sheets.
+
 ### [sheetlink/cli](https://github.com/sheetlink/cli)
 The `sheetlink` npm package. Sync transactions from the terminal to any destination.
 
@@ -26,6 +29,9 @@ The `sheetlink` npm package. Sync transactions from the terminal to any destinat
 npm install -g sheetlink
 sheetlink sync --output postgres://localhost/mydb
 ```
+
+### [sheetlink/sheetlink-recipes](https://github.com/sheetlink/sheetlink-recipes)
+Open-source Google Apps Script recipes — budget trackers, cash flow forecasts, and business reporting tools you can install directly into your spreadsheet.
 
 ### Internal
 The web client, API, and operational tooling are maintained privately.
